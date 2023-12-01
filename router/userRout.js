@@ -9,4 +9,5 @@ userRout
   .get(controll.userGet)
   .patch(controll.updateUser)
   .delete(controll.deleteUser);
+userRout.route("/top3/saleryUser").get(controll.userGetTop3);
 module.exports = userRout;
